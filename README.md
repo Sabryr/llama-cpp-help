@@ -15,4 +15,11 @@
     - ` CMAKE_ARGS="-DGGML_CUDA=on" pip install -r requirements.txt`
 
   - Test libraries  
-   
+
+## install dependancies
+
+## Use env
+```
+- source llm/bin/activate
+- export HF_HOME=/itf-fi-ml/shared/ml-models/NoraLLm/  # set modeul location to prevent downloading to HOME
+```
